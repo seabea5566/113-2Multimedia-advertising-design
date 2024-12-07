@@ -40,39 +40,36 @@
         font-weight: bold;
     }
     .logo {
-    width: 30%; /* Logo 寬度 */
+    width: 30%;
     }
  /*--------------------------------------------------*/
     .card{
-    /*div class類別名稱開頭記得打"."*/
         width: 500px;
         padding: 20px;
         background-color: white;
-        display: flex;/*這邊設定 flex 是為了用 gap 語法*/
-        flex-direction:column ;/*flex-direction：決定flex的軸線方向，column會讓小卡內容順向直排，row是橫排，他們後面加上reverse會變成逆向*/
-        gap: 16px;/*設定間格距離*/
-        border-radius: 16px;/*border：邊界(元素邊界外)*//*radius：圓角*/
+        display: flex;
+        flex-direction:column ;
+        gap: 16px;
+        border-radius: 16px;
     }
  /*--------------------------------------------------*/
     main{
         padding: 20px;
         text-align: center;
-        color:black;/*這個區塊「文字」的顏色*/
-        height: 430px;/*這個區塊的長寬*/
-        padding-top: 144px;/*把內容往下推*/
+        color:black;
+        height: 430px;
+        padding-top: 144px;
         background-image: url(image/bg_foot_01_sp.png);
         background-color: #FFC1C9;
     }
     
     .main-title{
-    /*div class類別名稱開頭記得打"."*/
-        font-size: 60px;/*字體大小*/
+        font-size: 60px;
     }
 
     .main-intro{
-        /*div class類別名稱開頭記得打"."*/
-            font-size: 24px;/*字體大小*/
-            font-weight: bold;/*字重*/
+            font-size: 24px;
+            font-weight: bold;
             width: 550px;
     }
     nav {
@@ -102,12 +99,12 @@
     height: 100%; 
     text-align: center; 
     background-image: url('image/mainimage01.png');
-    background-size: cover; /* 背景圖片覆蓋整個區域 */
-    background-position: center; /* 背景圖片置中 */
-    background-repeat: no-repeat; /* 防止背景圖片重複 */
-    display: flex; /* 使用 Flexbox，讓內容置中 */
-    align-items: center; /* 垂直置中 */
-    justify-content: center; /* 水平置中 */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
     }
 
  /*--------------------------------------------------*/
